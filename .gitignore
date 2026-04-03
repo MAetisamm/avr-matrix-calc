@@ -1,16 +1,17 @@
 # Atmel Studio build output
-Output Files/
 Debug/
 Release/
-*.atsuo
-*.user
-*.suo
-*.map
-*.elf
-*.hex
-*.lss
-*.eep
 
-# IDE metadata (optional — keep .atsln and .cproj if you want IDE support)
-Dependencies/
-Labels/
+# Compiled binaries
+*.hex
+*.elf
+*.map
+*.lss
+*.obj
+*.tmp
+*.o
+
+# Atmel Studio IDE files
+*.atsuo
+*.componentinfo.xml
+*.asmproj
