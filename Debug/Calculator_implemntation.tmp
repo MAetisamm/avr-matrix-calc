@@ -1,0 +1,132 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\Debug\Calculator_implemntation.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Calculator_implemntation.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Calculator_implemntation.map</FILE>
+  <FILE>Calculator_implemntation.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <display_buffer><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>13</LINE></display_buffer>
+  <current_pos><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>14</LINE></current_pos>
+  <key_pressed_flag><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>15</LINE></key_pressed_flag>
+  <debounce_timer><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>16</LINE></debounce_timer>
+  <row_timer><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>17</LINE></row_timer>
+  <row_counter><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>18</LINE></row_counter>
+  <num_stack><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>21</LINE></num_stack>
+  <op_stack><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>22</LINE></op_stack>
+  <num_sp><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>23</LINE></num_sp>
+  <op_sp><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>24</LINE></op_sp>
+  <accum_lo><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>25</LINE></accum_lo>
+  <accum_hi><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>26</LINE></accum_hi>
+  <accum_nonzero><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>27</LINE></accum_nonzero>
+  <incoming_op><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>28</LINE></incoming_op>
+  <MAIN_RESET><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>38</LINE></MAIN_RESET>
+  <TIMER_TICK><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>612</LINE></TIMER_TICK>
+  <CLEAR_DISPLAY_BUFFER><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>601</LINE></CLEAR_DISPLAY_BUFFER>
+  <CALC_INIT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>437</LINE></CALC_INIT>
+  <MAIN_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>75</LINE></MAIN_LOOP>
+  <FULL_CLEAR><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>430</LINE></FULL_CLEAR>
+  <SCAN_KEYBOARD><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>754</LINE></SCAN_KEYBOARD>
+  <NO_KEY_PRESSED><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>97</LINE></NO_KEY_PRESSED>
+  <PROCESS_KEY><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>104</LINE></PROCESS_KEY>
+  <PK_MOD><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>120</LINE></PK_MOD>
+  <PK_EQUALS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>124</LINE></PK_EQUALS>
+  <PK_PLUS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>127</LINE></PK_PLUS>
+  <PK_MINUS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>131</LINE></PK_MINUS>
+  <PK_MUL><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>135</LINE></PK_MUL>
+  <PK_DIV><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>139</LINE></PK_DIV>
+  <KEY_TO_DIGIT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>144</LINE></KEY_TO_DIGIT>
+  <PROCESS_DIGIT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>165</LINE></PROCESS_DIGIT>
+  <PROCESS_OPERATOR><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>214</LINE></PROCESS_OPERATOR>
+  <PROCESS_EQUALS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>383</LINE></PROCESS_EQUALS>
+  <KTD_NOT14><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>149</LINE></KTD_NOT14>
+  <KTD_LOW><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>157</LINE></KTD_LOW>
+  <KTD_MID><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>160</LINE></KTD_MID>
+  <MUL16_BY_10><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>446</LINE></MUL16_BY_10>
+  <DIGIT_TO_SLOT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>183</LINE></DIGIT_TO_SLOT>
+  <DISP_WRITE_SLOT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>522</LINE></DISP_WRITE_SLOT>
+  <DTS_0><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>192</LINE></DTS_0>
+  <DTS_1_3><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>195</LINE></DTS_1_3>
+  <DTS_4_6><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>197</LINE></DTS_4_6>
+  <GET_PREC><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>201</LINE></GET_PREC>
+  <GP_HIGH><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>210</LINE></GP_HIGH>
+  <PO_SKIP_PUSH><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>228</LINE></PO_SKIP_PUSH>
+  <PUSH_NUM><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>462</LINE></PUSH_NUM>
+  <PO_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>232</LINE></PO_LOOP>
+  <PO_DONE><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>263</LINE></PO_DONE>
+  <POP_OP_SLOT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>506</LINE></POP_OP_SLOT>
+  <POP_NUM><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>476</LINE></POP_NUM>
+  <APPLY_OP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>269</LINE></APPLY_OP>
+  <PUSH_OP_SLOT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>495</LINE></PUSH_OP_SLOT>
+  <GET_OP_CODE><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>363</LINE></GET_OP_CODE>
+  <AO_ADD><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>284</LINE></AO_ADD>
+  <AO_SUB><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>289</LINE></AO_SUB>
+  <AO_MUL><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>294</LINE></AO_MUL>
+  <AO_DIV><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>305</LINE></AO_DIV>
+  <AO_MOD><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>336</LINE></AO_MOD>
+  <AO_DIV_ZERO><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>331</LINE></AO_DIV_ZERO>
+  <AO_DIV_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>314</LINE></AO_DIV_LOOP>
+  <AO_DIV_NOSUB><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>326</LINE></AO_DIV_NOSUB>
+  <AO_MOD_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>345</LINE></AO_MOD_LOOP>
+  <AO_MOD_NOSUB><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>357</LINE></AO_MOD_NOSUB>
+  <GOC_ADD><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>374</LINE></GOC_ADD>
+  <GOC_SUB><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>376</LINE></GOC_SUB>
+  <GOC_MUL><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>378</LINE></GOC_MUL>
+  <GOC_DIV><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>380</LINE></GOC_DIV>
+  <PE_DRAIN><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>395</LINE></PE_DRAIN>
+  <PE_DRAIN_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>399</LINE></PE_DRAIN_LOOP>
+  <PE_RESULT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>414</LINE></PE_RESULT>
+  <PE_OK><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>425</LINE></PE_OK>
+  <NUM_TO_DISPLAY><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>536</LINE></NUM_TO_DISPLAY>
+  <POP_NUM_EMPTY><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>490</LINE></POP_NUM_EMPTY>
+  <POP_OP_EMPTY><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>518</LINE></POP_OP_EMPTY>
+  <DWS_FULL><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>533</LINE></DWS_FULL>
+  <NTD_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>541</LINE></NTD_LOOP>
+  <DIV16_BY_10><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>566</LINE></DIV16_BY_10>
+  <NTD_OUTPUT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>554</LINE></NTD_OUTPUT>
+  <NTD_DONE><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>563</LINE></NTD_DONE>
+  <D10_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>578</LINE></D10_LOOP>
+  <D10_NOSUB><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>588</LINE></D10_NOSUB>
+  <CDB_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>606</LINE></CDB_LOOP>
+  <TT_DISPLAY><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>638</LINE></TT_DISPLAY>
+  <TT_NEXT_ROW><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>646</LINE></TT_NEXT_ROW>
+  <TT_DONE><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>687</LINE></TT_DONE>
+  <TT_SHIFT_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>651</LINE></TT_SHIFT_LOOP>
+  <GET_LED_PATTERN><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>708</LINE></GET_LED_PATTERN>
+  <SHIFT_OUT_5_BITS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>729</LINE></SHIFT_OUT_5_BITS>
+  <TT_SHIFT_ROW><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>672</LINE></TT_SHIFT_ROW>
+  <TT_ROW_SHIFT><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>667</LINE></TT_ROW_SHIFT>
+  <SHIFT_OUT_8_BITS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>736</LINE></SHIFT_OUT_8_BITS>
+  <TT_SAVE_ROW><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>684</LINE></TT_SAVE_ROW>
+  <GLP_BLANK><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>725</LINE></GLP_BLANK>
+  <char_table><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>822</LINE></char_table>
+  <GLP_NO_CARRY><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>722</LINE></GLP_NO_CARRY>
+  <SHIFT_LOOP><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>738</LINE></SHIFT_LOOP>
+  <SL_LOW><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>743</LINE></SL_LOW>
+  <SL_CLK><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>745</LINE></SL_CLK>
+  <CHECK_COLUMNS><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>800</LINE></CHECK_COLUMNS>
+  <SK_DONE><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>795</LINE></SK_DONE>
+  <SK_ROW3><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>774</LINE></SK_ROW3>
+  <SK_ROW4><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>785</LINE></SK_ROW4>
+  <CC_COL2><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>806</LINE></CC_COL2>
+  <CC_COL3><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>811</LINE></CC_COL3>
+  <CC_COL4><FILE>C:\Users\IT LAND\Documents\Atmel Studio\7.0\Task1\Calculator_implemntation\main.asm</FILE><LINE>816</LINE></CC_COL4>
+ </LABELS>
+</ASSEMBLER_INFO>
