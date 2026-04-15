@@ -40,6 +40,7 @@ MAIN_RESET:
     out  SPH, tmp
     ldi  tmp, low(RAMEND)
     out  SPL, tmp
+	clr  r1         
 
     ldi  tmp, (1<<PB3)|(1<<PB4)|(1<<PB5)
     out  DDRB, tmp
@@ -247,7 +248,7 @@ PO_LOOP:
     rcall GET_PREC
 
     cp   r26, r23
-    brlt PO_DONE
+    brlo PO_DONE
     mov  tmp, r22
 
     rcall POP_OP_SLOT
@@ -256,7 +257,9 @@ PO_LOOP:
     mov  r30, r24
     mov  r31, r25
     rcall POP_NUM
+	push r22
     rcall APPLY_OP
+	pop r22
     rcall PUSH_NUM
     rjmp PO_LOOP
 
@@ -327,6 +330,7 @@ AO_DIV_NOSUB:
     dec  tmp
     brne AO_DIV_LOOP
     movw r24, r2
+    clr  r1
     ret
 AO_DIV_ZERO:
     ldi  r24, 0xFF
@@ -358,7 +362,8 @@ AO_MOD_NOSUB:
     dec  tmp
     brne AO_MOD_LOOP
     movw r24, r28
-    ret
+    clr  r1
+	ret
 
 GET_OP_CODE:
     cpi  tmp, 4
@@ -407,7 +412,9 @@ PE_DRAIN_LOOP:
     mov  r30, r24
     mov  r31, r25
     rcall POP_NUM
+	push r22
     rcall APPLY_OP
+	pop r22
     rcall PUSH_NUM
     rjmp PE_DRAIN_LOOP
 
@@ -423,10 +430,12 @@ PE_RESULT:
     ret
 
 PE_OK:
+    rcall CLEAR_DISPLAY_BUFFER
+    clr   tmp
+    sts   current_pos, tmp
     rcall NUM_TO_DISPLAY
     rcall CALC_INIT
     ret
-
 FULL_CLEAR:
     rcall CLEAR_DISPLAY_BUFFER
     clr  tmp
